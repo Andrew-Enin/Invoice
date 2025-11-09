@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header_container">
+        <div>
+            <div class="left_header">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #ffffff;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                </div>
+                <div class="ooo">
+                    <h1>Invoice Manager</h1>
+                    <p>Manage and track your invoices</p>
+                </div>
+            </div>
+            <div class="right_header">
+                <a href="" class="export">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download h-4 w-4 mr-2" style="color: #1d2530 ;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>
+                    </div>
+                    <p>Export</p>
+                </a>
+
+                <a href="" class="new_invoice">
+                    <p class="iii">+</p>
+                    <p>New Invoice</p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main_body">
+
+        <!-- PRICE CARD SECTION -->
+        <div>
+           <section class="top_section">
+                <div class="price-card">
+                    <div class="price_card_text">
+                        <p>Total Invoices</p>
+                        <p>$42,850</p>
+                        <p>8 invoices</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #3c83f6;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                    </div>
+                </div>
+
+
+                <div class="price-card">
+                    <div class="price_card_text">
+                        <p>Paid</p>
+                        <p>$15,800</p>
+                        <p>3 invoices</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign h-8 w-8" style="color: #16a249;"><line x1="12" x2="12" y1="2" y2="22"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    </div>
+                </div>
+
+
+                <div class="price-card">
+                    <div class="price_card_text">
+                        <p>Pending</p>
+                        <p>$10,350</p>
+                        <p>3 invoices</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #F59F0A;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                    </div>
+                </div>
+
+
+                <div class="price-card">
+                    <div class="price_card_text">
+                        <p>Overdue</p>
+                        <p>$16,700</p>
+                        <p>2 invoices</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #DC2828;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                    </div>
+                </div>
+           </section>
+
+
+
+           <section class="bottom_section">
+
+                <!-- LEFT FILTERS SECTION -->
+                    <form>
+                        <div class="filter_section">
+                            <div class="filters_container">
+                                <p>Filters</p>
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4 w-4 mr-1"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+                                    <p>Clear</p>
+                                </button>
+                            </div>
+
+                            <div class="search_client">
+                                <label for="client">Search Client</label>
+                                <input type="text" name="client" id="client" placeholder="search by name...">
+                            </div>
+
+                            <div class="status_container">
+                                <p>Status</p>
+                                <div>
+                                    <input type="checkbox" name="paid" id="paid">
+                                    <label for="paid">Paid</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="pending" id="pending">
+                                    <label for="pending">Pending</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="overdue" id="overdue">
+                                    <label for="overdue">Overdue</label>
+                                </div>
+                            </div>
+
+                            <div class="range_container">
+                                <p>Amount Range</p>
+                                <div class="range_input">
+                                    <div>
+                                        <label for="min">Min Amount</label>
+                                        <input type="number" name="min" id="min" placeholder="0">
+                                    </div>
+                                    <div>
+                                        <label for="max">Max Amount</label>
+                                        <input type="number" name="max" id="max" placeholder="10000">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
+                <!-- BOTTOM RIGHT SECTION -->
+                <div class="bottom_right_section">
+
+                    <!-- TOP INPUT SECTION -->
+                    <section class="top_input_container">
+                        <div>
+                            <div class="bottom_input">
+                                <input type="text" name="" id="" placeholder="Search invoices...">
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></span>
+                            </div>
+
+                            <div class="hide_sort">
+                                <div class="hide">
+                                    <button>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sliders-horizontal h-4 w-4 mr-2"><line x1="21" x2="14" y1="4" y2="4"></line><line x1="10" x2="3" y1="4" y2="4"></line><line x1="21" x2="12" y1="12" y2="12"></line><line x1="8" x2="3" y1="12" y2="12"></line><line x1="21" x2="16" y1="20" y2="20"></line><line x1="12" x2="3" y1="20" y2="20"></line><line x1="14" x2="14" y1="2" y2="6"></line><line x1="8" x2="8" y1="10" y2="14"></line><line x1="16" x2="16" y1="18" y2="22"></line></svg>
+                                        </div>
+                                        <p>Hide Filters</p>
+                                    </button>
+                                </div>
+
+                                <div class="sort">
+                                    <select name="sort" id="sort">
+                                        <option value="date">Sort by Date</option>
+                                        <option value="amount">Sort by Amount</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- BOTTOM CARDS SECTION -->
+                    <section class="bottom_invoice-container">
+                        <div class="bottom_right-card">
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+                            <div class="invoice_card">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" style="color: #6c7c93;"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div>
+                                                <p>INV-2024-008</p>
+                                            </div>
+                                            <p>Paid</p>
+                                        </div>
+                                        <p>Startup Hub</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Amount</p>
+                                    <p>$3,850</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </section>
+                </div>
+           </section>
+        </div>
+    </main>
+</body>
+</html>
